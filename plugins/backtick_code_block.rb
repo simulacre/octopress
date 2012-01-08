@@ -1,4 +1,4 @@
-require './plugins/pygments_code'
+require File.expand_path("../pygments_code", __FILE__)
 
 module BacktickCodeBlock
   include HighlightCode

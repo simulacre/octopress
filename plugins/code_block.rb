@@ -41,8 +41,8 @@
 # <pre><code>&lt;sarcasm> Ooooh, sarcasm... How original!&lt;/sarcasm></code></pre>
 # </figure>
 #
-require './plugins/pygments_code'
-require './plugins/raw'
+require File.expand_path("../pygments_code", __FILE__)
+require File.expand_path("../raw", __FILE__)
 
 module Jekyll
 
