@@ -1,0 +1,1 @@
+../../plugins/category_generator.rb
