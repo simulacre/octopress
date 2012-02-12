@@ -35,7 +35,7 @@ module Jekyll
       code = CGI.escapeHTML code
       <<-HTML
 <div><script src='#{script_url}'></script>
-<noscript><pre><code>#{code}</code></pre></noscript></div>
+<noscript><pre><code class="gist">#{code}</code></pre></noscript></div>
       HTML
     end
 
